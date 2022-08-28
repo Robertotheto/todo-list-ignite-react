@@ -1,0 +1,25 @@
+.task{
+    display: flex;
+    justify-content: space-between;
+}
+.task .taskCreated{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.task .taskCompleted{
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.task span{
+    width: 25px;
+    height: 19px;
+    background: var(--gray-400);
+    padding: 0.125rem 0.625rem;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    font-weight: bold;
+}
