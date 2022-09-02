@@ -1,24 +1,47 @@
-.list{
-    margin-top: 1.5rem;
-    border-top: 1px solid var(--gray-400);
+.listContent{
+    background: var(--gray-400);
     border-radius: 8px;
-    padding: 4rem 1.5rem;
-}
-.list div{
+    margin-top: 1.5rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 4.5rem;
 }
-.list div img{
-    width: 56px;
-    height: 56px;
-    margin-bottom: 1rem;
+.listContent button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
 }
-.list div strong{
-    font-weight: bold;
+.listContent .circle{
+    color: var(--blue);
+    margin-right: 0.75rem;
+}
+.listContent .circle:hover{
+    color: var(--blue-dark);
+}
+.listContent .circleChecked{
+    color: var(--purple-dark);
+    margin-right: 0.75rem;
+}
+.listContent .circleChecked:hover{
+    color: var(--purple);
+}
+.listContent .description{
+    max-width: 632px;
+    font-size: 0.875rem;
     line-height: 1.4;
 }
-.list div p{
+.listContent .descriptionAllowed{
+    max-width: 632px;
+    font-size: 0.875rem;
     line-height: 1.4;
+    text-decoration: line-through;
+}
+.listContent .trash{
+    color: var(--gray-300);
+}
+.listContent .trash:hover{
+    background: var(--gray-400);
+    color: var(--danger);
 }

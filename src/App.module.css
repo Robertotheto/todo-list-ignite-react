@@ -13,3 +13,44 @@
     width: 100%;
     margin-top: 4rem;
 }
+.newTask{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.newTask input{
+    width: 638px;
+    height: 3.375rem;
+    border: 0;
+    border-radius: 8px;
+    background: var(--gray-500);
+    padding: 1rem 0 1rem 1rem;
+    line-height: 1.4;
+}
+.newTask input:focus{
+    outline: 1px solid var(--purple-dark);
+    color: var(--gray-100);
+}
+.newTask button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.625rem;
+    height: 3.25rem;
+    border: 0;
+    border-radius: 8px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    transition: color 0.2s;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: pointer;
+    padding: 1rem;
+}
+.newTask button:hover{
+    background: var(--blue);
+}
+.newTask button svg{
+    margin-left: 0.5rem;
+}
